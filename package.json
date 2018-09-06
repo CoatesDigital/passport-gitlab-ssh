@@ -1,0 +1,37 @@
+{
+  "name": "passport-gitlab-ssh",
+  "version": "1.0.0",
+  "description": "A passport.js strategy that uses gitlab ssh auth + JWT to authenticate HTTP requests by virtue of having SSH access to the gitlab server.",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CoatesDigital/passport-gitlab-ssh.git"
+  },
+  "keywords": [
+    "gitlab",
+    "ssh",
+    "jwt",
+    "auth",
+    "passport.js"
+  ],
+  "author": "Dean Rather",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoatesDigital/passport-gitlab-ssh/issues"
+  },
+  "homepage": "https://github.com/CoatesDigital/passport-gitlab-ssh#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "passport-strategy": "^1.0.0",
+    "request": "^2.88.0",
+    "ssh-key-to-pem": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
