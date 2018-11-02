@@ -1,6 +1,6 @@
 {
   "name": "passport-gitlab-ssh",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A passport.js strategy that uses gitlab ssh auth + JWT to authenticate HTTP requests by virtue of having SSH access to the gitlab server.",
   "main": "./lib",
   "scripts": {
